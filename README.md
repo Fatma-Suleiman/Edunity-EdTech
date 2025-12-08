@@ -1,9 +1,16 @@
-REACT
+# React + Vite
 
-React is a JavaScript library used for: Building web user interfaces Creating reusable components Building native mobile applications using React Native.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-NPM (Node Package Manager) is a tool that comes with Node.js and is used to: Install packages/libraries in a JavaScript project Manage project dependencies Run scripts (like npm run dev, npm run build).
+Currently, two official plugins are available:
 
-package.json package.json is a file that: Stores your project information Keeps track of all installed dependencies Contains scripts for running and building your project.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Vite is a fast build tool for modern web projects. It is used to: Create React projects quickly Start a development server extremely fast Bundle and optimize your app for production.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
