@@ -1,0 +1,37 @@
+:root{
+    --primary:#17254E;
+    --seccondary:#785DD7;
+    --radler:#FFD250;
+    --text-color:#fff;
+    --text-color-main:#0E2A46;
+    --btn-primary: #2FC7A1;
+    --icon-primary: #35D7AE;
+    --btn-secondary:#17254E;
+    --btn-icon-secondary: #1F3061;
+    --badge-color: #704FE6;
+    --red-color:#FE543D;
+
+
+
+    --primary-box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+
+
+
+    --default-padding-left: 180.5px;
+    --default-padding-right:180.5px;
+    --default-button-radius:200px;
+
+    --page-width: 1903px;
+
+    --font-size:15px;
+    --font-weight: 400;
+    --gap:32px;
+    --button-height: 58px;
+    --button-icon-width:15px;
+    --button-wrapper-width:58px;
+     --button-wrapper-border-radius:29px;
+     --button-wrapper-height:58px;
+     --menue-margin-right:480px;
+      --margin-left:8px;
+     
+}

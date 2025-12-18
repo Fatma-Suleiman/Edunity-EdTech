@@ -1,0 +1,40 @@
+
+.navigation{
+    display: flex;
+    align-items: center;
+     height: 69px;
+     padding-left: var(--default-padding-left);
+     padding-right: var(--default-padding-right);   
+}
+
+.navigation_items{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; 
+ width: 100%;
+ margin: 0;
+
+}
+
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+
+menu{
+    display: flex;
+     gap: var(--gap) ;
+    justify-content: space-between;
+    
+     margin-right: var( --menue-margin-right);
+     
+
+}
+
+menu a{
+     text-decoration: none;
+    color: var(--text-color-main);
+}

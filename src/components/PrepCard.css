@@ -1,0 +1,29 @@
+.prep-card {
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  overflow: hidden;
+}
+
+.prep-card-content {
+  max-width: 60%;
+}
+
+.prep-start {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.prep-text {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.prep-card-image svg {
+  width: 220px;
+}

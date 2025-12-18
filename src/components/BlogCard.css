@@ -1,0 +1,44 @@
+.blog-card {
+  background-color: rgb( 238, 238, 238);
+  background-repeat: no-repeat;
+  border-radius: 5px; 
+}
+
+.blog-image {
+    width: 100%;
+  text-align: center;
+   margin: 30px auto 0;
+  object-fit: cover;
+}
+
+.blog-content {
+    margin-top: 20px;
+  padding-left: 60px;
+
+  
+ 
+}
+
+.blog-meta {
+  display: flex;
+ gap: 40px;
+  font-size: 14px;
+  color:  #4D5756;
+  margin-bottom: 10px;
+}
+
+.date-span{
+      display: flex;
+ gap: 6px;
+}
+.comment-span{
+  display: flex;
+ gap: 6px;
+}
+
+.blog-content h4 {
+  font-size: 16px;
+  color: #0e2a46;
+  margin-bottom: 16px;
+}
+

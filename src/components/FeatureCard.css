@@ -1,0 +1,49 @@
+.feature-card {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: var(--primary-box-shadow);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  background: #2FC7A1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #2FC7A1;
+  position: relative; /* REQUIRED */
+}
+
+/* Outer circle */
+.feature-icon::after {
+  content: "";
+  position: absolute;
+  inset: -10px; /* controls distance from inner circle */
+  border-radius: 50%;
+  border: 2px dashed #2FC7A1; /* solid outer border */
+  opacity: 0.7; /* optional */
+}
+
+
+.feature-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+

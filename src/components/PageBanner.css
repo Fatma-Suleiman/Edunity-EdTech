@@ -1,0 +1,60 @@
+@import '../theme/variables.css';
+@import '../theme/global.css';
+
+.banner{
+    background-color: var(--primary);
+    display: flex;
+     align-items: center;         
+    height: 50px;
+    padding-left: var(--default-padding-left);
+    padding-right: var(--default-padding-right);
+    color: var(--text-color);
+}
+.banner_contact {
+    display: flex;                  
+    justify-content: space-between;  
+    width: 100%;                     
+    align-items: center;             
+}
+
+.banner_contact_left {
+    display: flex;
+    gap: var(--gap); 
+    align-items: center;
+   
+}
+
+.banner__contact__item {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size);
+}
+
+.banner__contact__item span {
+    margin-left: var(--margin-left);
+
+}
+
+.banner_contact_right {
+    display: flex;
+    gap:var(--gap); 
+    align-items: center;
+    
+}
+
+.auth_links{
+    font-size: var(--font-size);
+}
+.auth_links a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 5px;
+}
+
+.banner_socials svg {
+    margin-left: 10px; 
+    cursor: pointer;
+    gap: 10px;
+}
+
+

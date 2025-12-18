@@ -1,0 +1,168 @@
+.landing-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 var(--default-padding-left);
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/icons/bglandpage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing_content_left {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.landing_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.landing_text h3 {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: #2fc7a126;
+  color: var(--btn-primary);
+  font-size: 14px;
+  font-weight: 400;
+  width: fit-content;
+}
+
+.landing_text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #17254e;
+  margin: 0;
+}
+
+.landing_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333931;
+  margin: 0;
+}
+
+.searchbar {
+  display: flex;
+  width: 100%;
+  height: 58px;
+  width: 485px;
+  max-width: 500px;
+  border-radius: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.searchbar input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+
+}
+
+.search-btn {
+  background-color: var(--btn-primary);
+  border-radius: 29px;
+  border: none;
+  width: 58px;
+  height: 58px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.landing_content_right {
+  position: relative;
+  display: flex;
+  width: 55%;
+  height: 600px;
+}
+
+.landing_content_right {
+  position: relative;
+  width: 50%;
+  height: 600px;
+}
+
+.student-card {
+  position: absolute;
+  overflow: hidden;
+}
+
+.student-card-1 {
+  left: -10px;
+  bottom: 0px;
+}
+
+.student-card-2 {
+  left: 250px;
+  top: 0 px;
+}
+
+.student-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student_cricle {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+}
+.student_cricle_red {
+  position: absolute;
+  left: 280px;
+  top: 40 px;
+}
+
+.badge {
+  position: absolute;
+  background: white;
+  width: 330.2px;
+  height: 94px;
+  padding: 0px 40px;
+  border-radius: 1000px;
+  gap: 35px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  font-size: 16px;
+}
+
+.badge-students {
+  top: 40px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.badge-numbers {
+  color: var(--badge-color);
+}
+
+.badge-courses {
+  bottom: 50px;
+  left: 470px;
+  width: 238px;
+}
+
+.course-numbers {
+  font-size: 34px;
+  color: var(--btn-primary);
+}

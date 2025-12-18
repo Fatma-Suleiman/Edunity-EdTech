@@ -1,0 +1,48 @@
+.btn {
+  position:relative;
+  border-radius:var( --default-button-radius);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  gap: var(--gap);
+  height:var(--button-height);
+  z-index: 1;
+}
+
+.btn-icon{
+    width: var(--button-icon-width);
+
+}
+
+.btn-icon-wrapper {
+  position: absolute;
+  right: -14px;
+  width: var(--button-wrapper-width);
+  height: var(--button-wrapper-height);
+  border-radius: var(--button-wrapper-border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: var(--btn-primary);
+  color: var(--text-color);
+}
+
+.btn-primary .btn-icon-wrapper {
+  background-color: var(--icon-primary);
+}
+
+.btn-secondary {
+  background-color: var(--btn-secondary);
+  color: var(--text-color);
+}
+
+.btn-secondary .btn-icon-wrapper {
+  background-color: var(--btn-icon-secondary);
+}
