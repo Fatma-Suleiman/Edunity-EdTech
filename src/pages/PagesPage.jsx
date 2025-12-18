@@ -1,10 +1,10 @@
 import React from "react";
 import "./PagesPage.css";
 import ClassroomImage from "../assets/icons/classroom.svg?react";
-import Status1 from "../assets/icons/Status1.svg?react";
-import Status2 from "../assets/icons/Status2.svg?react";
-import Status3 from "../assets/icons/Status3.svg?react";
-import Status4 from "../assets/icons/Status4.svg?react";
+import Status1 from "../assets/icons/status1.svg?react";
+import Status2 from "../assets/icons/status2.svg?react";
+import Status3 from "../assets/icons/status3.svg?react";
+import Status4 from "../assets/icons/status4.svg?react";
 
 import Progress1 from "../assets/icons/progress1.svg?react";
 import Progress2 from "../assets/icons/progress2.svg?react";
