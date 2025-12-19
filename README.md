@@ -39,7 +39,6 @@ Rules:
 ### Side Effects and useEffect
 Side effects such as data fetching, timers, and DOM updates are handled using the `useEffect` hook.
 
----
 
 ## SECTION 2: React Hooks
 
@@ -59,7 +58,6 @@ Rules of Hooks:
 - **useRef** – Stores persistent values
 - **useMemo & useCallback** – Improve performance
 
----
 
 ## SECTION 3: JavaScript HTML DOM
 The DOM represents an HTML page as a tree of objects. JavaScript can:
@@ -74,7 +72,6 @@ The DOM represents an HTML page as a tree of objects. JavaScript can:
 - `querySelector()`
 - `querySelectorAll()`
 
----
 
 ## SECTION 4: JavaScript HTML DOM – Elements
 Each HTML element has properties, methods, and attributes.
@@ -93,7 +90,6 @@ Each HTML element has properties, methods, and attributes.
 - `removeChild()`
 - `replaceChild()`
 
----
 
 ## Previous Assignment
 Documentation for the previous assignment is available in:
