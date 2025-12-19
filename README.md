@@ -1,4 +1,4 @@
-# REACT AND JAVASCRIPT ASSIGNMENT (Month 4)
+# REACT AND JAVASCRIPT SUMMARY (Month 4)
 
 ## SECTION 1: What React Is and Why It Exists
 React is a JavaScript library for building user interfaces, developed to solve the challenge of managing complex and dynamic UI updates efficiently. Instead of manually updating the webpage whenever data changes, React automatically updates the UI based on changes in state or props.
