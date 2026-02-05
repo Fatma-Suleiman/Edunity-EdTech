@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./PagesPage.css";
 import ClassroomImage from "../assets/icons/classroom.svg?react";
 import Status1 from "../assets/icons/status1.svg?react";

@@ -1,12 +1,12 @@
-import './PageHeader.css';
-import {PageBanner} from './PageBanner';
-import PageNavigation from './PageNavigation';
+import "./PageHeader.css";
+import { PageBanner } from "./PageBanner";
+import PageNavigation from "./Navbar/PageNavigation";
 
-export const PageHeader = () =>{
-    return (
-        <header className='header'>
-            <PageBanner/>
-            <PageNavigation/>
-        </header>
-    )
-}
+export const PageHeader = () => {
+  return (
+    <header className="header">
+      <PageBanner />
+      <PageNavigation />
+    </header>
+  );
+};

@@ -14,7 +14,7 @@ import EventsImage5 from "../assets/icons/event5.svg?react";
 
 const  BlogPage  =  () => {
   return (
-    <section className="events-section page-container">
+    <section id='blogs' className="events-section page-container">
       <div className="events-container">
 
         {/* LEFT CONTENT */}

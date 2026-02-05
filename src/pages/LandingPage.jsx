@@ -7,6 +7,13 @@ import BadgeStudent from "../assets/icons/badgestudent.svg?react";
 import Landing1 from "../assets/icons/landing1.svg?react";
 import Landing2 from "../assets/icons/landing2.svg?react";
 import Landing3 from "../assets/icons/landing3.svg?react";
+import CoursePage from "./CoursePage";
+import PagesPage from "./PagesPage";
+import ContactPage from "./ContactPage";
+
+import AboutPage from "./AboutPage";
+import BlogPage from "./BlogPage";
+
 
 const LandingPage = () => {
   return (
@@ -62,6 +69,27 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      <section id="about">
+                <AboutPage />
+            </section>
+
+            <section id="courses">
+                <CoursePage/>
+            </section>
+
+            <section id="pages">
+                <PagesPage />
+            </section> 
+
+            <section id="blogs">
+                <BlogPage />
+            </section> 
+
+            <section id="contact">
+                <ContactPage />
+            </section> 
+
+           
     </>
   );
 };

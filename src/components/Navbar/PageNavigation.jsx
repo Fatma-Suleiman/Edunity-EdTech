@@ -1,8 +1,8 @@
 import "./PageNavigation.css";
-import { Button } from "./Buttons";
-import Logo from "../assets/icons/logo.svg?react";
-import SearchIcon from "../assets/icons/search.svg?react";
-import Icon from "../assets/icons/arrow.svg?react";
+import { Button } from "../Buttons";
+import Logo from '../../assets/icons/logo.svg?react';
+import SearchIcon from "../../assets/icons/search.svg?react";
+import Icon from "../../assets/icons/arrow.svg?react";
 import { Link } from "react-router-dom";
 
 const PageNavigation = () => {

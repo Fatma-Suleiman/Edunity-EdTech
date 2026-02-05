@@ -9,7 +9,7 @@ import Icon from "../assets/icons/arrow.svg?react";
 
 const AboutPage = () => {
   return (
-    <div className="container">
+    <section id="about" className="container">
       <div className="left">
         <div className="triangle">
           <Triangle />
@@ -68,7 +68,7 @@ const AboutPage = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

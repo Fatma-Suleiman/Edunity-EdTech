@@ -52,7 +52,7 @@ const blogs = [
 
     return ( 
       <>
-      <section className="instructor-area page-container">
+      <section id='contact' className="instructor-area page-container">
 <div className="instructor-section">
   <p className="section-subtitle">
     <TopHeader />
@@ -70,7 +70,7 @@ const blogs = [
 </div>
 </section>
 
-<section className="blog-section page-container">
+<section id='contact' className="blog-section page-container">
   <div className="blog-header">
   <div className="header-left">
     <div className="header-text">

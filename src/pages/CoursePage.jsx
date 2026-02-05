@@ -10,7 +10,7 @@ import IconAvatar from "../assets/icons/angela.svg?react";
 
 const CoursePage = () => {
   return (
-    <div className="course-card-container">
+    <section id="courses" className="course-card-container">
       <div className="course_card_header">
         <div className="course__header__content">
           <div className="header_lead"> 
@@ -82,7 +82,7 @@ const CoursePage = () => {
           }}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
